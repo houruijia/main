@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-08-14 20:17:14
+ * @version $Id$
+ */
+.content .news_list .main{width: 1200px;height: auto; margin: 0 auto;}
+
+
+.content .main .product_show{width: 1200px;height: auto;}
+.content .main .product_show li{width: 260px;height: 150px;margin: 20px;float: left;position: relative;}
+.content .main .product_show i{width: 260px;height: 30px;background: url(../img/product_bcakground.png);position: absolute;bottom: 0px;left: 0px;display: none;font-family: "微软雅黑";font-size: 14px;text-align: center;line-height: 30px;}
+.content .main .product_show li:hover i{display: block;}
+
+.news_list .page{width: 1200px;height: 20px;text-align: center;font-size: 0px; padding-top: 40px;}
+.news_list .page li{width: auto;height: 20px;display: inline-block;margin: 0px 5px;font-family: "微软雅黑";font-size: 14px;color: #000000;line-height: 20px;}
+.news_list .page li a{display: block; font-family: "微软雅黑";font-size: 14px;color: #000000;line-height: 20px;padding: 0px 4px;}
+.news_list .page li a:hover{color: #ffffff;background: #ffcc33;}
+.news_list .page li a.on{color: #ffffff;background: #ffcc33;}
+
+
+
+
