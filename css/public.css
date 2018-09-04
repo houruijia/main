@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-08-14 09:36:16
+ * @version $Id$
+ */
+
+.content .text{width: 936px;height: auto;margin: 0 auto;padding: 118px 132px 77px 132px;}
+.content .text .main{margin-bottom: 40px;}
+.content .text .main h3{font-size: 42px;font-family: "微软雅黑";height: 46px ;line-height:46px; }
+.content .text .main h4{font-size: 26px;font-family: "微软雅黑"; color: #999999;height: 36px;line-height: 36px;}
+.content .text .main p{width: 844px; line-height: 20px;font-size: 12px;font-family: "Arial"; color: #999999;}
+
+.content .text ul{width: 941px;height: 116px; overflow: hidden;}
+.content .text ul li{width: 212px;height: 96px;padding: 20px 0px 0px 18px; float: left;margin-right: 5px;}
+.content .text li:first-child{background: #ffcc33; }
+.content .text li:first-child + li{background: #99ffcc; }
+.content .text li:first-child + li +li{background: #ff6666; }
+.content .text li:first-child + li +li+li{background: #cc99ff;}
+.content .text ul li h5{font-size: 22px;font-family: "微软雅黑";color: #ffffff;margin-bottom: 12px;line-height: 22px;}
+.content .text ul li p{font-size: 14px;font-family: "微软雅黑";color: #ffffff;line-height: 26px;}

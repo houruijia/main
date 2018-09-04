@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-08-15 08:52:32
+ * @version $Id$
+ */
+
+.contact_banner{width: 1920px;height: auto;background: url(../img/contact_pic.png);position: relative;left: 50%;margin-left: -960px;padding: 70px 0px 49px 0px;}
+.contact_banner .main{width: 1200px;height: auto;margin: 0 auto;padding-top: 70px;}
+
+.contact_banner .top{width:1050px; height: 780px;padding: 0px 40px 0px 110px;}
+.contact_banner .left{width: 384px;height: 780px;padding-right: 50px;float: left;}
+.contact_banner .left_title{width: 434px;height: auto; padding-top: 38px;text-indent: 8px;}
+.contact_banner .left_title h2{font-family: "Arial";font-size: 26px;color: #cccccc;line-height:32px;text-transform: uppercase;}
+.contact_banner .left_title i{display: block; font-family: "微软雅黑";font-size: 32px;color: #ffffff;line-height:42px;padding-bottom: 5px;letter-spacing: 9px;}
+.contact_banner .left_title b{font-family: "微软雅黑";font-size: 14px;color: #ffffff;line-height:20px;letter-spacing: 2px;}
+.contact_banner .left_title p{font-family: "Arial";font-size: 14px;color: #ffffff;line-height:20px;text-transform: uppercase;letter-spacing: 5px;}
+
+.contact_banner .right{width: 616px;height: 780px;float: right;}
+
+.contact_banner .right .map{width: 616px;height: 450px;font-size:12px;}
+
+.contact_banner .right_title{width: 434px;height: auto;text-indent: 8px;padding-top: 80px;}
+.contact_banner .right_title h2{font-family: "Arial";font-size: 26px;color: #cccccc;line-height:32px;text-transform: uppercase;}
+.contact_banner .right_title i{display: block; font-family: "微软雅黑";font-size: 32px;color: #ffffff;line-height:42px;padding-bottom: 5px;letter-spacing: 9px;}
+
+.contact_banner .right_title p{line-height: 32px;font-family: "微软雅黑";font-size: 18px;color: #ffffff;letter-spacing: 7px;}
+.contact_banner .right_title p.first-child{padding-top: 10px}
+
+.contact_banner form{width: 776px;height: 317px;border: 2px solid #ffffff; margin: 0 auto;padding: 16px 60px 29px 60px;}
+.contact_banner form input{padding-left: 5px; width: 245px;height: 20px;background: none;border-bottom: 1px solid #999999;font-family: "微软雅黑";font-size: 14px;color: #ffffff;}
+.contact_banner form .name{float: left;}
+.contact_banner form .phone{float: right;}
+.contact_banner form .code{width: 129px;height: 31px;float: left;padding-right: 20px;line-height: 31px;}
+.contact_banner form  a{width: 96px;height: 31px; border-bottom: 1px solid #999999;float: left;}
+.contact_banner form img{width: 60px;height: 25px;float: left;margin: 3px 0px;}
+.contact_banner form  a:after{float: left;display: block;margin-top: 12px; content: "看不清";font-family: "微软雅黑";font-size: 12px;color: #ffffff;}
+.contact_banner form button{float: right;width: 250px;height: 32px;background: #333366;border: none;font-family: "微软雅黑";font-size: 18px;color: #ffffff;}
+.contact_banner form textarea{width: 768px ;height: 187px;border: 1px solid #999999;padding: 9px 0px 0px 6px;margin: 32px 0px 30px 0px;font-family: "微软雅黑";font-size: 14px;color: #ffffff;background: none}
